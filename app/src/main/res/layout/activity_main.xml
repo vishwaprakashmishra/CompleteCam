@@ -15,14 +15,26 @@
         android:layout_weight="1"
         android:id="@+id/camera_text_view"
         android:layout_gravity="center"
+        android:onClick="openCamera"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorAccent"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:padding="64dp"
         />
     <TextView
         android:id="@+id/sample_text"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:text="@string/live_stream"
         android:textSize="16sp"
         android:layout_weight="1"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:onClick="openStream"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:padding="64dp"/>
 
 </LinearLayout>

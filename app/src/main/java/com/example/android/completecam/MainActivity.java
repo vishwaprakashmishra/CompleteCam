@@ -29,4 +29,15 @@ public class MainActivity extends AppCompatActivity {
     static {
         System.loadLibrary("native-lib");
     }
+    public void openCamera(View view){
+        // Open activity
+        // Do the camera functioinality
+        // etc.
+    }
+    public void openStream(View view){
+        //  Open functionality for stream
+        // Do the config for stream
+        // Open activity handling streaming
+        // etc
+    }
 }
