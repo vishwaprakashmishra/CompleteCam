@@ -10,6 +10,7 @@ CONTRIBUTING
 
 contribuing to this project requires application developing experience and some knowledge on JNI, image processing and tools like ffmpeg
 
+
 PROJECT PHASE
 -------------
 
@@ -17,4 +18,9 @@ Project is in its initial phase
 
 OBJECTIVE
 ---------
+
+LICENCE
+-------
+
+This project is created under GNU GPLv3
 
