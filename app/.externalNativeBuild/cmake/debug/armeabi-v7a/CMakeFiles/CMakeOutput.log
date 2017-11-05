@@ -1,61 +1,60 @@
 The target system is: Android - 21 - armv7-a
-The host system is: Linux - 4.4.0-93-generic - x86_64
+The host system is: Windows - 10.0.15063 - AMD64
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_d36a9"
-[1/2] Building C object CMakeFiles/cmTC_d36a9.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_d36a9
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_a3980"
+[1/2] Building C object CMakeFiles/cmTC_a3980.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_a3980
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_2cc7d"
-[1/2] Building C object CMakeFiles/cmTC_2cc7d.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_2cc7d
-Android clang version 5.0.300080  (based on LLVM 5.0.300080)
-Target: armv7-none-linux-android
-Thread model: posix
-InstalledDir: /home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin
-Found candidate GCC installation: /home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
-Selected GCC installation: /home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
-Candidate multilib: thumb;@thumb
-Candidate multilib: armv7-a;@armv7
-Candidate multilib: armv7-a/thumb;@armv7@thumb
-Candidate multilib: .;
-Selected multilib: armv7-a/thumb;@armv7@thumb
- "/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm -pie -z relro -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_2cc7d /home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib -L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_2cc7d.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib/crtend_android.o
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_249e2"
+[1/2] Building C object CMakeFiles/cmTC_249e2.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_249e2
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: armv7-none-linux-android
+Thread model: posix
+InstalledDir: C:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x
+Selected GCC installation: C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@thumb
+Candidate multilib: armv7-a;@armv7
+Candidate multilib: armv7-a/thumb;@armv7@thumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@armv7@thumb
+ "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_249e2 "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" "-LC:\\Users\\vishwa\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm" -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_249e2.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib\\crtend_android.o"
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_2cc7d"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_2cc7d.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_2cc7d]
-  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
-  ignore line: [Target: armv7-none-linux-android]
-  ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin]
-  ignore line: [Found candidate GCC installation: /home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
-  ignore line: [Selected GCC installation: /home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_249e2"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_249e2.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_249e2]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: armv7-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
   ignore line: [Candidate multilib: thumb]
-  ignore line: [@thumb]
+  ignore line: [@thumb]
   ignore line: [Candidate multilib: armv7-a]
-  ignore line: [@armv7]
+  ignore line: [@armv7]
   ignore line: [Candidate multilib: armv7-a/thumb]
-  ignore line: [@armv7@thumb]
+  ignore line: [@armv7@thumb]
   ignore line: [Candidate multilib: .]
-  ignore line: []
+  ignore line: []
   ignore line: [Selected multilib: armv7-a/thumb]
-  ignore line: [@armv7@thumb]
-  link line: [ "/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm -pie -z relro -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_2cc7d /home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib -L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_2cc7d.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib/crtend_android.o]
-    arg [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
-    arg [--sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm] ==> ignore
+  ignore line: [@armv7@thumb]
+  link line: [ "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_249e2 "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" "-LC:\\Users\\vishwa\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm" -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_249e2.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib\\crtend_android.o"]
+    arg [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\ld] ==> ignore
+    arg [--sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm] ==> ignore
     arg [-pie] ==> ignore
-    arg [-zrelro] ==> ignore
     arg [-X] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
@@ -63,14 +62,15 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_2cc7d] ==> ignore
-    arg [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
-    arg [-L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib] ==> dir [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib]
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
-    arg [-L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib] ==> dir [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
+    arg [cmTC_249e2] ==> ignore
+    arg [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib\crtbegin_dynamic.o] ==> ignore
+    arg [-LC:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\lib\linux\arm] ==> dir [C:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\lib\linux\arm]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/arm-linux-androideabi/../../lib]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
     arg [--exclude-libs] ==> ignore
     arg [libgcc.a] ==> ignore
     arg [--build-id] ==> ignore
@@ -83,34 +83,35 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_2cc7d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_249e2.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
-    arg [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib/crtend_android.o] ==> ignore
+    arg [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib\crtend_android.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> [/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib] ==> [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib] ==> [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
+  collapse library dir [C:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\lib\linux\arm] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
   implicit libs: [dl;c;dl]
-  implicit dirs: [/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm;/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
+  implicit dirs: [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/arm;C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_0f996"
-[1/2] Building C object CMakeFiles/cmTC_0f996.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_0f996
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_439db"
+[1/2] Building C object CMakeFiles/cmTC_439db.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_439db
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -120,11 +121,11 @@ Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_0f996
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_842dd"
-[1/2] Building C object CMakeFiles/cmTC_842dd.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_842dd
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_d4d7d"
+[1/2] Building C object CMakeFiles/cmTC_d4d7d.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_d4d7d
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -134,11 +135,11 @@ Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_842dd
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_be54a"
-[1/2] Building C object CMakeFiles/cmTC_be54a.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_be54a
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_72c70"
+[1/2] Building C object CMakeFiles/cmTC_72c70.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_72c70
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -146,61 +147,60 @@ Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_be54a
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_7ae42"
-[1/2] Building CXX object CMakeFiles/cmTC_7ae42.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_7ae42
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_668cf"
+[1/2] Building CXX object CMakeFiles/cmTC_668cf.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_668cf
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_4aad0"
-[1/2] Building CXX object CMakeFiles/cmTC_4aad0.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_4aad0
-Android clang version 5.0.300080  (based on LLVM 5.0.300080)
-Target: armv7-none-linux-android
-Thread model: posix
-InstalledDir: /home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin
-Found candidate GCC installation: /home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
-Selected GCC installation: /home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
-Candidate multilib: thumb;@thumb
-Candidate multilib: armv7-a;@armv7
-Candidate multilib: armv7-a/thumb;@armv7@thumb
-Candidate multilib: .;
-Selected multilib: armv7-a/thumb;@armv7@thumb
- "/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm -pie -z relro -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_4aad0 /home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib -L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_4aad0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib/crtend_android.o
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_ddda6"
+[1/2] Building CXX object CMakeFiles/cmTC_ddda6.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_ddda6
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: armv7-none-linux-android
+Thread model: posix
+InstalledDir: C:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x
+Selected GCC installation: C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x
+Candidate multilib: thumb;@thumb
+Candidate multilib: armv7-a;@armv7
+Candidate multilib: armv7-a/thumb;@armv7@thumb
+Candidate multilib: .;
+Selected multilib: armv7-a/thumb;@armv7@thumb
+ "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_ddda6 "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" "-LC:\\Users\\vishwa\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm" -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_ddda6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib\\crtend_android.o"
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_4aad0"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_4aad0.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_4aad0]
-  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
-  ignore line: [Target: armv7-none-linux-android]
-  ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin]
-  ignore line: [Found candidate GCC installation: /home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
-  ignore line: [Selected GCC installation: /home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
+  ignore line: [Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_ddda6"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_ddda6.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_ddda6]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: armv7-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x]
   ignore line: [Candidate multilib: thumb]
-  ignore line: [@thumb]
+  ignore line: [@thumb]
   ignore line: [Candidate multilib: armv7-a]
-  ignore line: [@armv7]
+  ignore line: [@armv7]
   ignore line: [Candidate multilib: armv7-a/thumb]
-  ignore line: [@armv7@thumb]
+  ignore line: [@armv7@thumb]
   ignore line: [Candidate multilib: .]
-  ignore line: []
+  ignore line: []
   ignore line: [Selected multilib: armv7-a/thumb]
-  ignore line: [@armv7@thumb]
-  link line: [ "/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm -pie -z relro -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_4aad0 /home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib -L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_4aad0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib/crtend_android.o]
-    arg [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
-    arg [--sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm] ==> ignore
+  ignore line: [@armv7@thumb]
+  link line: [ "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\\ld" --sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_ddda6 "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib\\crtbegin_dynamic.o" "-LC:\\Users\\vishwa\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\arm" -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/arm-linux-androideabi/../../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_ddda6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib\\crtend_android.o"]
+    arg [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin\ld] ==> ignore
+    arg [--sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm] ==> ignore
     arg [-pie] ==> ignore
-    arg [-zrelro] ==> ignore
     arg [-X] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
@@ -208,14 +208,15 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_4aad0] ==> ignore
-    arg [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
-    arg [-L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib] ==> dir [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib]
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
-    arg [-L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib] ==> dir [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
+    arg [cmTC_ddda6] ==> ignore
+    arg [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib\crtbegin_dynamic.o] ==> ignore
+    arg [-LC:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\lib\linux\arm] ==> dir [C:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\lib\linux\arm]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/arm-linux-androideabi/../../lib]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
     arg [--exclude-libs] ==> ignore
     arg [libgcc.a] ==> ignore
     arg [--build-id] ==> ignore
@@ -228,7 +229,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_4aad0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_ddda6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -238,30 +239,31 @@ Parsed CXX implicit link information from above output:
     arg [-lgcc] ==> lib [gcc]
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
-    arg [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib/crtend_android.o] ==> ignore
+    arg [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib\crtend_android.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc]
   remove lib [gcc]
   remove lib [gcc]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> [/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib] ==> [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib] ==> [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
+  collapse library dir [C:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\lib\linux\arm] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/../lib] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib/arm-linux-androideabi/../../lib] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
   implicit libs: [stdc++;m;dl;c;dl]
-  implicit dirs: [/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/arm;/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
+  implicit dirs: [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/arm;C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb;C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64/arm-linux-androideabi/lib/armv7-a/thumb;C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-arm/usr/lib]
   implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_c24f1"
-[1/2] Building CXX object CMakeFiles/cmTC_c24f1.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_c24f1
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_8846e"
+[1/2] Building CXX object CMakeFiles/cmTC_8846e.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_8846e
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -324,11 +326,11 @@ Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_c24f1
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_63e4e"
-[1/2] Building CXX object CMakeFiles/cmTC_63e4e.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_63e4e
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_21f6b"
+[1/2] Building CXX object CMakeFiles/cmTC_21f6b.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_21f6b
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -391,11 +393,11 @@ Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_63e4e
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_76ad6"
-[1/2] Building CXX object CMakeFiles/cmTC_76ad6.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_76ad6
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_aebf5"
+[1/2] Building CXX object CMakeFiles/cmTC_aebf5.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_aebf5
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

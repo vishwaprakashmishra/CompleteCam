@@ -1,77 +1,77 @@
 The target system is: Android - 21 - mips
-The host system is: Linux - 4.4.0-93-generic - x86_64
+The host system is: Windows - 10.0.15063 - AMD64
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_417f8"
-[1/2] Building C object CMakeFiles/cmTC_417f8.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_417f8
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_093b9"
+[1/2] Building C object CMakeFiles/cmTC_093b9.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_093b9
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_d442c"
-[1/2] Building C object CMakeFiles/cmTC_d442c.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_d442c
-Android clang version 5.0.300080  (based on LLVM 5.0.300080)
-Target: mipsel-none-linux-android
-Thread model: posix
-InstalledDir: /home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin
-Found candidate GCC installation: /home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x
-Selected GCC installation: /home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x
-Candidate multilib: .;@march=mips64r6
-Candidate multilib: 32/mips-r1;@march=mips32
-Candidate multilib: 32/mips-r2;@march=mips32r2
-Candidate multilib: 32/mips-r6;@march=mips32r6
-Selected multilib: 32/mips-r1;@march=mips32
- "/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin/ld" --sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips -pie -z relro --sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips --eh-frame-hdr -m elf32ltsmip -dynamic-linker /system/bin/linker -o cmTC_d442c /home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib/crtbegin_dynamic.o -L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1 -L/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel -L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1 -L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib -L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib -L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib -L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_d442c.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib/crtend_android.o
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_7534f"
+[1/2] Building C object CMakeFiles/cmTC_7534f.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_7534f
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: mipsel-none-linux-android
+Thread model: posix
+InstalledDir: C:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android\4.9.x
+Selected GCC installation: C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x
+Candidate multilib: .;@march=mips64r6
+Candidate multilib: 32/mips-r1;@march=mips32
+Candidate multilib: 32/mips-r2;@march=mips32r2
+Candidate multilib: 32/mips-r6;@march=mips32r6
+Selected multilib: 32/mips-r1;@march=mips32
+ "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin\\ld" --sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips -pie --sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips --eh-frame-hdr -m elf32ltsmip -dynamic-linker /system/bin/linker -o cmTC_7534f "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib\\crtbegin_dynamic.o" -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1 "-LC:\\Users\\vishwa\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\mipsel" -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1 -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/mips64el-linux-android/../../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_7534f.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib\\crtend_android.o"
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(mips64el-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(mips64el-linux-android-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_d442c"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_d442c.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_d442c]
-  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
-  ignore line: [Target: mipsel-none-linux-android]
-  ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin]
-  ignore line: [Found candidate GCC installation: /home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x]
-  ignore line: [Selected GCC installation: /home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x]
+  ignore line: [Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_7534f"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_7534f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_7534f]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: mipsel-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x]
   ignore line: [Candidate multilib: .]
-  ignore line: [@march=mips64r6]
+  ignore line: [@march=mips64r6]
   ignore line: [Candidate multilib: 32/mips-r1]
-  ignore line: [@march=mips32]
+  ignore line: [@march=mips32]
   ignore line: [Candidate multilib: 32/mips-r2]
-  ignore line: [@march=mips32r2]
+  ignore line: [@march=mips32r2]
   ignore line: [Candidate multilib: 32/mips-r6]
-  ignore line: [@march=mips32r6]
+  ignore line: [@march=mips32r6]
   ignore line: [Selected multilib: 32/mips-r1]
-  ignore line: [@march=mips32]
-  link line: [ "/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin/ld" --sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips -pie -z relro --sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips --eh-frame-hdr -m elf32ltsmip -dynamic-linker /system/bin/linker -o cmTC_d442c /home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib/crtbegin_dynamic.o -L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1 -L/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel -L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1 -L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib -L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib -L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib -L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_d442c.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib/crtend_android.o]
-    arg [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin/ld] ==> ignore
-    arg [--sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips] ==> ignore
+  ignore line: [@march=mips32]
+  link line: [ "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin\\ld" --sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips -pie --sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips --eh-frame-hdr -m elf32ltsmip -dynamic-linker /system/bin/linker -o cmTC_7534f "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib\\crtbegin_dynamic.o" -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1 "-LC:\\Users\\vishwa\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\mipsel" -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1 -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/mips64el-linux-android/../../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_7534f.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib\\crtend_android.o"]
+    arg [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin\ld] ==> ignore
+    arg [--sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips] ==> ignore
     arg [-pie] ==> ignore
-    arg [-zrelro] ==> ignore
-    arg [--sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips] ==> ignore
+    arg [--sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
     arg [elf32ltsmip] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d442c] ==> ignore
-    arg [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1]
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel]
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1]
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib]
-    arg [-L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib] ==> dir [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib]
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib]
-    arg [-L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib] ==> dir [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
+    arg [cmTC_7534f] ==> ignore
+    arg [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib\crtbegin_dynamic.o] ==> ignore
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1]
+    arg [-LC:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\lib\linux\mipsel] ==> dir [C:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\lib\linux\mipsel]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/mips64el-linux-android/../../lib] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/mips64el-linux-android/../../lib]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
     arg [--exclude-libs] ==> ignore
     arg [libgcc.a] ==> ignore
     arg [--build-id] ==> ignore
@@ -83,35 +83,36 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_d442c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_7534f.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
-    arg [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib/crtend_android.o] ==> ignore
+    arg [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib\crtend_android.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1] ==> [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel] ==> [/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1] ==> [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib] ==> [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/mips64el-linux-android/lib]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib] ==> [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib] ==> [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/mips64el-linux-android/lib]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib] ==> [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1]
+  collapse library dir [C:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\lib\linux\mipsel] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/mips64el-linux-android/lib]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/mips64el-linux-android/../../lib] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/mips64el-linux-android/lib]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
   implicit libs: [dl;c;dl]
-  implicit dirs: [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1;/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel;/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/mips64el-linux-android/lib;/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
+  implicit dirs: [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1;C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel;C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/mips64el-linux-android/lib;C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_f87ca"
-[1/2] Building C object CMakeFiles/cmTC_f87ca.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_f87ca
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_e0259"
+[1/2] Building C object CMakeFiles/cmTC_e0259.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_e0259
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -121,11 +122,11 @@ Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_f87ca
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_11ca9"
-[1/2] Building C object CMakeFiles/cmTC_11ca9.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_11ca9
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_40977"
+[1/2] Building C object CMakeFiles/cmTC_40977.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_40977
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -135,11 +136,11 @@ Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_11ca9
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_e8b03"
-[1/2] Building C object CMakeFiles/cmTC_e8b03.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_e8b03
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_74e11"
+[1/2] Building C object CMakeFiles/cmTC_74e11.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_74e11
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -147,77 +148,77 @@ Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_e8b03
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_b82a5"
-[1/2] Building CXX object CMakeFiles/cmTC_b82a5.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_b82a5
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_80cd6"
+[1/2] Building CXX object CMakeFiles/cmTC_80cd6.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_80cd6
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_416e5"
-[1/2] Building CXX object CMakeFiles/cmTC_416e5.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_416e5
-Android clang version 5.0.300080  (based on LLVM 5.0.300080)
-Target: mipsel-none-linux-android
-Thread model: posix
-InstalledDir: /home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin
-Found candidate GCC installation: /home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x
-Selected GCC installation: /home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x
-Candidate multilib: .;@march=mips64r6
-Candidate multilib: 32/mips-r1;@march=mips32
-Candidate multilib: 32/mips-r2;@march=mips32r2
-Candidate multilib: 32/mips-r6;@march=mips32r6
-Selected multilib: 32/mips-r1;@march=mips32
- "/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin/ld" --sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips -pie -z relro --sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips --eh-frame-hdr -m elf32ltsmip -dynamic-linker /system/bin/linker -o cmTC_416e5 /home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib/crtbegin_dynamic.o -L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1 -L/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel -L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1 -L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib -L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib -L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib -L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_416e5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib/crtend_android.o
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_01379"
+[1/2] Building CXX object CMakeFiles/cmTC_01379.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_01379
+Android clang version 5.0.300080  (based on LLVM 5.0.300080)
+Target: mipsel-none-linux-android
+Thread model: posix
+InstalledDir: C:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin
+Found candidate GCC installation: C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android\4.9.x
+Selected GCC installation: C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x
+Candidate multilib: .;@march=mips64r6
+Candidate multilib: 32/mips-r1;@march=mips32
+Candidate multilib: 32/mips-r2;@march=mips32r2
+Candidate multilib: 32/mips-r6;@march=mips32r6
+Selected multilib: 32/mips-r1;@march=mips32
+ "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin\\ld" --sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips -pie --sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips --eh-frame-hdr -m elf32ltsmip -dynamic-linker /system/bin/linker -o cmTC_01379 "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib\\crtbegin_dynamic.o" -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1 "-LC:\\Users\\vishwa\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\mipsel" -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1 -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/mips64el-linux-android/../../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_01379.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib\\crtend_android.o"
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(mips64el-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(mips64el-linux-android-ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_416e5"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_416e5.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_416e5]
-  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
-  ignore line: [Target: mipsel-none-linux-android]
-  ignore line: [Thread model: posix]
-  ignore line: [InstalledDir: /home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin]
-  ignore line: [Found candidate GCC installation: /home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x]
-  ignore line: [Selected GCC installation: /home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x]
+  ignore line: [Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_01379"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_01379.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_01379]
+  ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
+  ignore line: [Target: mipsel-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin]
+  ignore line: [Found candidate GCC installation: C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android\4.9.x]
+  ignore line: [Selected GCC installation: C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x]
   ignore line: [Candidate multilib: .]
-  ignore line: [@march=mips64r6]
+  ignore line: [@march=mips64r6]
   ignore line: [Candidate multilib: 32/mips-r1]
-  ignore line: [@march=mips32]
+  ignore line: [@march=mips32]
   ignore line: [Candidate multilib: 32/mips-r2]
-  ignore line: [@march=mips32r2]
+  ignore line: [@march=mips32r2]
   ignore line: [Candidate multilib: 32/mips-r6]
-  ignore line: [@march=mips32r6]
+  ignore line: [@march=mips32r6]
   ignore line: [Selected multilib: 32/mips-r1]
-  ignore line: [@march=mips32]
-  link line: [ "/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin/ld" --sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips -pie -z relro --sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips --eh-frame-hdr -m elf32ltsmip -dynamic-linker /system/bin/linker -o cmTC_416e5 /home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib/crtbegin_dynamic.o -L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1 -L/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel -L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1 -L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib -L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib -L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib -L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_416e5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib/crtend_android.o]
-    arg [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin/ld] ==> ignore
-    arg [--sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips] ==> ignore
+  ignore line: [@march=mips32]
+  link line: [ "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin\\ld" --sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips -pie --sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips --eh-frame-hdr -m elf32ltsmip -dynamic-linker /system/bin/linker -o cmTC_01379 "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib\\crtbegin_dynamic.o" -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1 "-LC:\\Users\\vishwa\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\5.0.300080\\lib\\linux\\mipsel" -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1 -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/mips64el-linux-android/../../lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib -LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib --exclude-libs libgcc.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_01379.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib\\crtend_android.o"]
+    arg [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/bin\ld] ==> ignore
+    arg [--sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips] ==> ignore
     arg [-pie] ==> ignore
-    arg [-zrelro] ==> ignore
-    arg [--sysroot=/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips] ==> ignore
+    arg [--sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
     arg [elf32ltsmip] ==> ignore
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_416e5] ==> ignore
-    arg [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1]
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel]
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1]
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib]
-    arg [-L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib] ==> dir [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib]
-    arg [-L/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib] ==> dir [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib]
-    arg [-L/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib] ==> dir [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
+    arg [cmTC_01379] ==> ignore
+    arg [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib\crtbegin_dynamic.o] ==> ignore
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1]
+    arg [-LC:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\lib\linux\mipsel] ==> dir [C:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\lib\linux\mipsel]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/mips64el-linux-android/../../lib] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/mips64el-linux-android/../../lib]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib]
+    arg [-LC:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib] ==> dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
     arg [--exclude-libs] ==> ignore
     arg [libgcc.a] ==> ignore
     arg [--build-id] ==> ignore
@@ -229,7 +230,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_416e5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_01379.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -239,31 +240,32 @@ Parsed CXX implicit link information from above output:
     arg [-lgcc] ==> lib [gcc]
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
-    arg [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib/crtend_android.o] ==> ignore
+    arg [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib\crtend_android.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc]
   remove lib [gcc]
   remove lib [gcc]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1] ==> [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel] ==> [/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1] ==> [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib] ==> [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/mips64el-linux-android/lib]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib] ==> [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib] ==> [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/mips64el-linux-android/lib]
-  collapse library dir [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib] ==> [/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1]
+  collapse library dir [C:\Users\vishwa\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\5.0.300080\lib\linux\mipsel] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib/../lib] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/mips64el-linux-android/lib]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/../lib] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib/mips64el-linux-android/../../lib] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/../../../../mips64el-linux-android/lib] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/mips64el-linux-android/lib]
+  collapse library dir [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib] ==> [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
   implicit libs: [stdc++;m;dl;c;dl]
-  implicit dirs: [/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1;/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel;/home/vishwa/Android/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/linux-x86_64/mips64el-linux-android/lib;/home/vishwa/Android/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
+  implicit dirs: [C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/lib/gcc/mips64el-linux-android/4.9.x/32/mips-r1;C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/mipsel;C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64/mips64el-linux-android/lib;C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/platforms/android-21/arch-mips/usr/lib]
   implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_8fe55"
-[1/2] Building CXX object CMakeFiles/cmTC_8fe55.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_8fe55
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_7e5bf"
+[1/2] Building CXX object CMakeFiles/cmTC_7e5bf.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_7e5bf
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -326,11 +328,11 @@ Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_8fe55
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_24cf7"
-[1/2] Building CXX object CMakeFiles/cmTC_24cf7.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_24cf7
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_b13f1"
+[1/2] Building CXX object CMakeFiles/cmTC_b13f1.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_b13f1
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -393,11 +395,11 @@ Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_24cf7
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
+Change Dir: D:/CompleteCam/app/.externalNativeBuild/cmake/debug/mips/CMakeFiles/CMakeTmp
 
-Run Build Command:"/home/vishwa/Android/cmake/3.6.4111459/bin/ninja" "cmTC_a3973"
-[1/2] Building CXX object CMakeFiles/cmTC_a3973.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_a3973
+Run Build Command:"C:\Users\vishwa\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe" "cmTC_d5d96"
+[1/2] Building CXX object CMakeFiles/cmTC_d5d96.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_d5d96
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

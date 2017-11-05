@@ -1,9 +1,9 @@
 
 {
-	"buildFiles" : [ "/home/vishwa/udacity/CompleteCam/app/CMakeLists.txt" ],
+	"buildFiles" : [ "D:/CompleteCam/app/CMakeLists.txt" ],
 	"cleanCommands" : 
 	[
-		"/home/vishwa/Android/cmake/3.6.4111459/bin/cmake --build /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/release/armeabi --target clean"
+		"C:\\Users\\vishwa\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\CompleteCam\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -12,27 +12,27 @@
 		{
 			"abi" : "armeabi",
 			"artifactName" : "native-lib",
-			"buildCommand" : "/home/vishwa/Android/cmake/3.6.4111459/bin/cmake --build /home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/release/armeabi --target native-lib",
+			"buildCommand" : "C:\\Users\\vishwa\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\CompleteCam\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target native-lib",
 			"buildType" : "release",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/home/vishwa/Android/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/vishwa/Android/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /home/vishwa/Android/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /home/vishwa/Android/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /home/vishwa/Android/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /home/vishwa/Android/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
-					"src" : "/home/vishwa/udacity/CompleteCam/app/src/main/cpp/native-lib.cpp",
-					"workingDirectory" : "/home/vishwa/udacity/CompleteCam/app/.externalNativeBuild/cmake/release/armeabi"
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem C:\\Users\\vishwa\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\vishwa\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem C:\\Users\\vishwa\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/CompleteCam/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "D:/CompleteCam/app/.externalNativeBuild/cmake/release/armeabi"
 				}
 			],
-			"output" : "/home/vishwa/udacity/CompleteCam/app/build/intermediates/cmake/release/obj/armeabi/libnative-lib.so",
-			"toolchain" : "1741371785035967814"
+			"output" : "D:/CompleteCam/app/build/intermediates/cmake/release/obj/armeabi/libnative-lib.so",
+			"toolchain" : "2580088753"
 		}
 	},
 	"toolchains" : 
 	{
-		"1741371785035967814" : 
+		"2580088753" : 
 		{
-			"cCompilerExecutable" : "/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
-			"cppCompilerExecutable" : "/home/vishwa/Android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+			"cCompilerExecutable" : "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/vishwa/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
 		}
 	}
 }
